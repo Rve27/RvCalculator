@@ -35,6 +35,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+    @Suppress("DEPRECATION")
     kotlinOptions {
         jvmTarget = "11"
     }
